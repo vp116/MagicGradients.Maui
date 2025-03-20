@@ -1,0 +1,1 @@
+﻿global using Stretch = MagicGradients.Masks.Stretch;
