@@ -8,7 +8,7 @@ public class GradientMask : GradientElement, IGradientMask
         typeof(ClipMode), typeof(GradientMask), ClipMode.Include);
 
     public static readonly BindableProperty StretchProperty = BindableProperty.Create(nameof(Stretch),
-        typeof(Microsoft.Maui.Controls.Stretch), typeof(GradientMask), Stretch.None);
+        typeof(Stretch), typeof(GradientMask), Stretch.None);
 
     public static readonly BindableProperty IsActiveProperty = BindableProperty.Create(nameof(IsActive),
         typeof(bool), typeof(GradientMask), true);
